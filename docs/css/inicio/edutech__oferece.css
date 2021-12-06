@@ -1,0 +1,32 @@
+.edutech__oferece {
+    background-color: var(--cor-fundo);
+}
+.titulo__edutech2 {
+    background-color: var(--fundo-secao);
+    color: var(--branco)/* usado para mudar a cor da fonte para branco*/;
+    font-family: var(--familia-titulo);
+    font-size: 2rem;
+    margin-top: 50px;
+    text-align: center;
+} 
+/*Inicio dos códigos responsivos*/
+
+@media screen and ( min-width: 0) {
+    .codigos__edutech {
+        margin-left: 10px;
+        width: 240px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .codigos__edutech {
+        margin-left: 50px;
+        width: 400px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .codigos__edutech {
+        height: 30%;
+        margin-left: 35%;
+        width: 500px;
+    }
+}

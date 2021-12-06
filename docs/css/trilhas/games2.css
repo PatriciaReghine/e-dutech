@@ -1,0 +1,43 @@
+.games__animacoes2 {
+    background-color: var(--branco); /*muda cor de fundo de acordo com a variavel*/
+}
+.titulo__games2 {
+    background-color: var(--fundo-secao);
+    color: var(--branco);
+    font-family: var(--familia-logo);
+    font-size: 2rem;
+    margin-top: 30px;
+    text-align: center;
+}
+.texto__animacoes2{
+    font-family: var(--familia-corpo);
+    font-size: 1.5rem;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.imagem__games2{
+    border: 2px solid var(--preto); /*adiciona borda*/
+   
+    
+}
+/*Inicio dos códigos responsivos*/
+
+@media screen and ( min-width: 0)  {
+    .imagem__games2 {
+        margin-left: 10px;
+        width: 250px;
+    }
+  
+}
+@media screen and ( min-width: 768px)  {
+  .imagem__games2 {
+      margin-left: 20px;
+      width: 350px;
+  }
+}
+@media screen and ( min-width: 1024px)  {
+    .imagem__games2 {
+        margin-left: 20%;
+        width: 600px;
+    }
+}

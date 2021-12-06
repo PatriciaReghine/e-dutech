@@ -1,0 +1,42 @@
+.data__science {
+    background-color: var(--cor-fundo);
+}
+.titulo__data {
+    background-color: var(--fundo-destaque);
+    color: var(--branco);/* muda a cor do texto*/
+    font-family: var(--fundo-titulo);
+    font-size: 2rem;
+    margin-top: 15px; /* margem acima*/
+    text-align: center;
+}
+.texto__data {
+    font-family: var(--familia-corpo);
+    font-size: 1.5rem;
+    margin-left: 10px;
+    padding-top: 15px;
+}
+.imagem__data {
+    border: 3px solid var(--fundo-secao); /* adiciona borda a imagem*/
+    
+}
+/*Inicio dos códigos responsivos*/
+
+@media screen and ( min-width: 0) {
+ .imagem__data {
+     margin-left: 15px;
+     width: 260px;
+ }
+}
+@media screen and ( min-width: 768px) {
+       .imagem__data {
+           margin-left: 20px;
+           width: 370px;
+       }
+}
+@media screen and ( min-width: 1024px) {
+    .imagem__data {
+        margin-left: 20%;
+        width: 600px;
+    }
+}
+

@@ -1,0 +1,21 @@
+/* Estilização do formulário*/
+.formulario {
+    margin-left: 20%;
+    margin-right: 20%; /* margem a direita*/
+}
+.nome__formulario {
+font-family: var(--familia-titulo);
+font-size: 1.2rem;
+font-weight: 800;
+}
+.botao__enviar {
+    background-color: var(--fundo-secao);
+    width: 30%;
+}
+.botao__enviar:hover { /* estilização botao no momento em que o mause esta em cima*/
+    background-color: var(--fundo-destaque);
+    color: var(--branco);
+    transition: 2s; /* transicao mais lenta no botao, ao mause passar em cima*/
+    
+
+}

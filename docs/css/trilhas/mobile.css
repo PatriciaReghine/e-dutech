@@ -1,0 +1,42 @@
+.mobile{
+    background-color: var(--branco);
+}
+.titulo__mobile{
+    background-color: var(--fundo-secao);
+    color: var(--branco);
+    font-family: var(--familia-logo);
+    font-size: 2rem;
+    margin-top: 20px;
+    text-align: center;
+}
+.texto__mobile {
+    font-family: var(--familia-corpo);
+    font-size: 1.5rem;
+    margin-left: 10px;
+    padding-top: 15px;/*espaçamento interno acima do texto*/
+}
+.imagem__mobile {
+    border: 3px solid var(--preto);
+  
+}
+/*Inicio dos códigos responsivos*/
+
+@media screen and ( min-width: 0) {
+    .imagem__mobile {
+       margin-left: 10px;
+       width: 277px;
+    }
+  
+}
+@media screen and ( min-width: 768px) {
+    .imagem__mobile {
+      margin-left:20px ;
+      width: 350px;
+    }
+}
+@media screen and ( min-width: 1024px) {
+    .imagem__mobile {
+        margin-left: 30%;
+        width: 500px;/*largura da imagem*/
+    }
+}

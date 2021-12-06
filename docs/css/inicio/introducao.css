@@ -1,0 +1,78 @@
+.introducao {
+    background-color: var(--cor-fundo);
+}
+.titulo__audio {
+    font-family: var(--familia-logo);
+    font-size: 1.7rem;
+    font-weight: 900; /* deixa mais em negrito*/
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.texto__introducao {
+    font-family: var(--familia-corpo);
+    font-size: 1.5rem;
+    margin-left: 10px;
+   padding-top: 20px;
+    
+}
+.imagem__introducao {
+   
+    box-shadow: 5px 5px 5px 5px var(--preto);/* adiciona sombra a imagem*/
+}
+.titulo__video {
+    font-family: var(--familia-logo);
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin-left: 5px;
+    padding-bottom: 10px ; /* espaçamento interno abaixo do vídeo*/
+}
+.video {
+    margin-left: 5%;
+}
+/* Inicio dos códigos de responsividade*/
+
+@media screen and ( min-width: 0) {
+    .audio__introducao {
+        margin-left: 0;
+    }
+    .imagem__introducao {
+        height: 230px;
+        margin-left: 10%;
+        width: 240px;
+    }
+    .video {
+        margin-left: 2px;
+        width: 300px;
+    }
+}
+@media screen and (min-width: 768px)  {
+    .audio__introducao {
+        margin-left: 20%;
+    }
+    .imagem__introducao {
+        height: 300px;
+        margin-left: 20%;
+        width: 300px;
+    }
+    .video {
+        margin-left: 20%;
+        width: 400px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .audio__introducao {
+        margin-left: 38%;
+
+    }
+    .imagem__introducao {
+        height: 500px;
+        margin-left: 35%;   /* margim a esquerda utilizada para um espaço no áudio,  o deixando mais centralizado*/
+        width: 40%;
+    }
+    .video {
+        width:560px;
+        height:315px;
+    }
+}

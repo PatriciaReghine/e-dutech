@@ -1,0 +1,45 @@
+.python {
+    background-color: var(--cor-fundo);/*muda a cor de fundo*/
+}
+.titulo__python {
+    background-color: var(--fundo-secao);
+    color: var(--branco);
+    font-family: var(--fundo-logo);
+    font-size: 2rem;
+    margin-top: 15px;
+    text-align: center;
+}
+.texto__python{
+    font-family: var(--familia-corpo);
+    font-size: 1.5rem;
+    margin-left: 10px;
+    padding-top: 15px;
+}
+.imagem__python {
+    border: 5px solid var(--preto);
+   
+}
+/*Inicio dos códigos responsivos*/
+
+@media screen and ( min-width: 0) {
+    .imagem__python {
+        height: 200px;
+        margin-left: 10px;
+        width: 270px;
+    }
+}
+@media screen and ( min-width: 768px) {
+    .imagem__python {
+        height: 250px;
+        margin-left: 10% ;
+        width: 370px;
+    }
+}
+@media screen and ( min-width: 1024px) {
+    .imagem__python {
+        height: 400px;
+        margin-left: 20%;
+        width: 600px;
+    }
+}
+ 

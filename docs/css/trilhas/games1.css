@@ -1,0 +1,54 @@
+.games__animacoes1 {
+    background-color: var(--cor-fundo);
+}
+.titulo__games {
+    background-color: var(--fundo-destaque);
+    color: var(--branco);
+    font-family: var(--familia-logo);
+    font-size: 2rem;
+    text-align: center;
+}
+.texto__animacoes {
+    font-family: var(--familia-corpo);
+    font-size: 1.5rem;
+    margin-left: 10px;/* Usado para dar uma margem do texto com a tela*/
+    padding-top: 10px;
+}
+.lista__trilhas {
+   margin-left: 30%;
+   margin-right: 30%;
+   padding-bottom: 20px;/* espaçamento dado abaixo da tabela*/
+}
+.profissoes {
+    font-family: var(--familia-titulo);
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-left: 6px;
+}
+.imagem__games1 {
+    margin-left: 30%;
+    padding-bottom: 5px;
+    border: 3px solid var(--preto);
+    width: 350px;
+}
+/*inicio dos codigos responsivos*/
+
+@media screen and ( min-width: 0) {
+     .imagem__games1 {
+         margin-left: 10px ;
+         width: 250px;
+     }
+}
+@media screen and ( min-width: 768px) {
+    .imagem__games1 {
+        margin-left: 20%;
+        width: 300px;
+    }
+}
+@media screen and ( min-width: 1024px) {
+    .imagem__games1 {
+        margin-left: 30%;
+        padding-bottom: 5px;
+        width: 350px;
+    }
+}

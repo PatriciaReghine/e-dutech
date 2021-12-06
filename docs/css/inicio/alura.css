@@ -1,0 +1,51 @@
+.edutech__alura {
+    background-color: var(--cor-fundo);
+}
+.titulo__edutechAlura {
+    background-color: var(--fundo-destaque);
+    color: var(--branco);
+    font-family: var(--familia-titulo);
+    font-size: 2rem;
+    margin-top: 20px;
+    text-align: center; /* alinha o texto ao centro */
+}
+.texto__edutechAlura {
+   font-size: 1.5rem;
+   font-family: var(--fundo-corpo);
+   text-align: center;
+}
+.imagem__alura {
+    margin-left: 20% ;/* margem a esuqerda*/
+}
+.imagem__alura2 {
+    margin-left: 60px;
+}
+/*Inicio dos códigos responsivos*/
+
+@media screen and ( min-width: 0) {
+    .imagem__alura {
+        height: 150px;
+    }
+    .imagem__alura2 {
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 200px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .imagem__alura{
+        height: 250px;
+    }
+    .imagem__alura2 {
+        margin-left: 30px;
+        width: 300px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .imagem__alura {
+        margin-left: 20% ;
+    }
+    .imagem__alura2 {
+        margin-left: 60px;
+    }
+}

@@ -1,0 +1,40 @@
+.java {
+    background-color: var(--branco);
+}
+.titulo__java {
+    background-color: var(--fundo-secao);
+    color: var(--branco);
+    font-family: var(--fundo-titulo);
+    font-size: 2rem;/*tamanho da fonte*/
+    margin-top: 15px;
+    text-align: center;
+}
+.texto__java{
+    font-family: var(--familia-corpo);
+    font-size: 1.5rem;
+    margin-left: 10px; /*margem a esquerda*/
+    padding-top: 15px;
+}
+.imagem__java {
+    border: 3px solid var(--fundo-destaque);
+}
+/*Inicio dos códigos responsivos*/
+
+@media screen and ( min-width: 0) {
+  .imagem__java {
+      margin-left: 12px;
+      width: 270px;
+  }
+}
+@media screen and ( min-width: 768px) {
+    .imagem__java {
+        margin-left: 20%;
+        width: 370px;
+    }
+}
+@media screen and ( min-width: 1024px) {
+    .imagem__java {
+        margin-left: 20%;
+        width: 600px;
+    }
+ }
